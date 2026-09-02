@@ -8,28 +8,16 @@ repo; this repo only holds release artifacts.
 
 ## Download
 
-Grab the latest installer from [Releases](../../releases):
+Most PCs are x64 — grab one of these (always the latest release):
 
-- **Windows**: `ManuNotes-Setup.exe` (installer) or `ManuNotes.exe`
-  (portable, no install needed).
-- **Linux**: `ManuNotes.AppImage` (make it executable — `chmod +x
-  ManuNotes.AppImage` — then run it directly) or `ManuNotes.deb`
-  (`sudo apt install ./ManuNotes.deb` on Debian/Ubuntu-based distros).
+- **Windows**: [ManuNotes-Setup-x64.exe](https://github.com/ManuNotes/ManuNotes-Electron-releases/releases/latest/download/ManuNotes-Setup-x64.exe)
+- **Linux**: [ManuNotes-x86_64.AppImage](https://github.com/ManuNotes/ManuNotes-Electron-releases/releases/latest/download/ManuNotes-x86_64.AppImage)
+  (make it executable — `chmod +x ManuNotes-x86_64.AppImage` — then run
+  it directly)
 
-Stable direct-download links (always the latest release, no version in
-the URL):
-
-- `https://github.com/ManuNotes/ManuNotes-Electron-releases/releases/latest/download/ManuNotes-Setup.exe`
-- `https://github.com/ManuNotes/ManuNotes-Electron-releases/releases/latest/download/ManuNotes.exe`
-- `https://github.com/ManuNotes/ManuNotes-Electron-releases/releases/latest/download/ManuNotes.AppImage`
-- `https://github.com/ManuNotes/ManuNotes-Electron-releases/releases/latest/download/ManuNotes.deb`
-
-### Current builds are arm64 only
-
-These builds target arm64 (Windows on ARM, Linux arm64/aarch64). x64
-("regular" Windows/Linux PCs) isn't covered yet — see the source repo's
-README for why (a native-module cross-compilation limitation) and what
-full coverage would take.
+Windows on Arm, the portable `.exe` (no install needed), the arm64
+AppImage, and the `.deb` package are all on the
+[Releases](../../releases) page.
 
 ### "Windows protected your PC" / unsigned warning
 
