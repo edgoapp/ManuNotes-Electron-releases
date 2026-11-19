@@ -3,15 +3,15 @@
 Built installers for [ManuNotes](https://manunotes.app.br) on Windows and
 Linux — an edge-docked notes widget, ported from the native macOS app.
 Source code lives in the private
-[ManuNotes-Electron](https://github.com/ManuNotes/ManuNotes-Electron)
+[ManuNotes-Electron](https://github.com/edgoapp/ManuNotes-Electron)
 repo; this repo only holds release artifacts.
 
 ## Download
 
 Most PCs are x64 — grab one of these (always the latest release):
 
-- **Windows**: [ManuNotes-Setup-x64.exe](https://github.com/ManuNotes/ManuNotes-Electron-releases/releases/latest/download/ManuNotes-Setup-x64.exe)
-- **Linux**: [ManuNotes-x86_64.AppImage](https://github.com/ManuNotes/ManuNotes-Electron-releases/releases/latest/download/ManuNotes-x86_64.AppImage)
+- **Windows**: [ManuNotes-Setup-x64.exe](https://github.com/edgoapp/ManuNotes-Electron-releases/releases/latest/download/ManuNotes-Setup-x64.exe)
+- **Linux**: [ManuNotes-x86_64.AppImage](https://github.com/edgoapp/ManuNotes-Electron-releases/releases/latest/download/ManuNotes-x86_64.AppImage)
   (make it executable — `chmod +x ManuNotes-x86_64.AppImage` — then run
   it directly)
 
